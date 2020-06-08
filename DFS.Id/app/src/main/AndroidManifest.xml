@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dewi_fadilah_sheilaa.ecommerce">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".ui.HelpCenterActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".ui.OrdersActivity"
+            android:exported="true" />
+        <activity android:name=".ui.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.ProductsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.CartActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.LoginActivity"
+            android:exported="true"
+            android:theme="@style/noActionTheme" />
+        <activity
+            android:name=".ui.RegistrationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.CategoriesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.ProductDetail"
+            android:exported="true"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".ui.AccountActivity" />
+
+        <activity
+            android:name=".ui.AddressActivity"
+            android:exported="true" />
+        <activity android:name=".ui.AddAddressActivity" />
+        <activity
+            android:name=".ui.OrderSummaryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.CheckoutActivity"
+            android:exported="true" />
+        <activity android:name=".ui.OrderDetailActivity" />
+        <activity android:name=".ui.ProfileUpdateActivity"/>
+
+    </application>
+
+</manifest>

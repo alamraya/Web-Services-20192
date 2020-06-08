@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="address_back">#F7F7F7</color>
+    <color name="red">#cdad00</color>
+    <color name="unselect_tab">#D0D0D0</color>
+
+    <color name="colorPrimary">#cd950c</color>
+    <color name="colorPrimaryDark">#8b6508</color>
+    <color name="colorAccent">#ee9a00</color>
+    <color name="white">#fff</color>
+    <color name="blue">#009acd</color>
+    <color name="red_dark">#a52a2a</color>
+
+    <color name="grey">#eceff1</color>
+    <color name="green">#7ccd7c</color>
+    <color name="red_2">#DB2828</color>
+</resources>
