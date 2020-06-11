@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.CheckoutActivity"
+    android:background="@color/address_back">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/CheckoutToolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:title="Checkout"
+        app:titleTextColor="#000"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/tab_layout"
+        android:background="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@+id/CheckoutToolbar"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        style="@style/AppTabLayout"
+
+        app:tabTextAppearance="@style/AppTabTextAppearance"/>
+
+    <com.dewi_fadilah_sheilaa.ecommerce.utils.CustomViewPager
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/checkout_view_pager"
+        app:layout_constraintTop_toBottomOf="@+id/tab_layout"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/checkout_price"
+
+
+        />
+
+    <include
+        android:id="@+id/checkout_price"
+        layout="@layout/checkout_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/checkout_view_pager"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

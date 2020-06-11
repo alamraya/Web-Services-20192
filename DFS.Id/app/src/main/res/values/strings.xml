@@ -1,0 +1,35 @@
+<resources>
+    <string name="roboto_black">fonts/Roboto-Black.ttf</string>
+    <string name="roboto_light">fonts/Roboto-Light.ttf</string>
+    <string name="roboto_medium">fonts/Roboto-Medium.ttf</string>
+    <string name="roboto_bold">fonts/Roboto-Bold.ttf</string>
+    <string name="roboto_regular">fonts/Roboto-Regular.ttf</string>
+
+    <string name="app_name">DFS.Id</string>
+    <string name="email_edit_hint">Email Address</string>
+    <string name="password_edit_hint">Password</string>
+    <string name="info_lack">Please fill all fields</string>
+    <string name="open_drawer">open drawer</string>
+    <string name="close_drawer">close drawer</string>
+    <string name="name_edit_hint">Name</string>
+    <string name="fname_edit_hint">First Name</string>
+    <string name="lname_edit_hint">Last Name</string>
+    <string name="address1_edit_hint">Address 1</string>
+    <string name="address2_edit_hint">Address 2</string>
+    <string name="state_edit_hint">State</string>
+    <string name="city_edit_hint">City</string>
+    <string name="zip_code_edit_hint">Zip Code</string>
+    <string name="add_address_activity_title">Add New Address</string>
+    <string name="field_is_required">Required Field</string>
+    <string name="address_activity_title">Your Address</string>
+    <string name="address_details">%1$s, %2$s</string>
+    <string name="address_user_name">%1$s %2$s</string>
+    <string name="sub_total_payment">Rp %1$d </string>
+    <string name="error_message">Something went wrong please try again</string>
+    <string name="phone_edit_hint">Phone Number</string>
+    <string name="payment_activiy_title">Payment Options</string>
+    <string name="seller">by: %1$s</string>
+    <string name="product_price">Rp %1$s </string>
+
+
+</resources>
