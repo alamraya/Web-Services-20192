@@ -1,0 +1,70 @@
+.Header {
+  padding: 12px 72px;
+  background: #f8f9fa !important;
+}
+
+.Header img {
+  width: 85%;
+  cursor: pointer;
+}
+
+.Header a {
+  color: #abadac;
+  text-decoration: none;
+}
+
+.Header a:hover {
+  color: #2d3034;
+  text-decoration: none;
+}
+
+.Header a:active,
+.Header a.active {
+  color: #2d3034;
+  font-weight: bold;
+}
+
+.BtnPrimary {
+  border: none !important;
+  background-color: #2d3034 !important;
+  color: white !important;
+}
+
+.BtnPrimary:hover {
+  background-color: white !important;
+  color: #2d3034 !important;
+  font-weight: 800;
+}
+
+.BtnSecondary {
+  margin-top: 5px;
+  border: none !important;
+  background-color: #f8f9fa !important;
+  color: #abadac !important;
+  font-weight: 600 !important;
+  width: 100%;
+  border-radius: 15px !important;
+}
+
+.BtnSecondary:hover {
+  color: white !important;
+  background-color: #2d3034 !important;
+}
+
+.MenuDropdown {
+  position: absolute;
+  right: 150px;
+  top: 60px;
+  z-index: 1000 !important;
+}
+
+.Circle {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  top: 5px;
+  right: 0;
+}

@@ -1,0 +1,11 @@
+.Books {
+  margin-bottom: 40px;
+  min-height: 400px;
+}
+
+.pageButton {
+  border: none !important;
+  background: none !important;
+  font-size: 14px;
+  font-weight: 600;
+}
