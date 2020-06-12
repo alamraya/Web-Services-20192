@@ -112,6 +112,7 @@ class BookController extends BaseController
 
         $input['title'] = strip_tags($input['title']);
         $input['slug'] = strlen($input['title']) > 40 ? str_replace(" ","-",substr($input->title,0,40)) : str_replace(" ","-",$input['title']);
+        $input['slug'] .= "-".date("his");
         $book = Book::find($bookId);        
         
         if(!$book){

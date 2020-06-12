@@ -20,11 +20,11 @@ class CreateUsersTable extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
-            $table->string('roles');
-            $table->string('addres');
-            $table->string('phone');
-            $table->string('avatar');
-            $table->enum('status',['ACTIVE','INACTIVE']);
+            $table->string('roles')->default(1);
+            $table->string('addres')->nullable();
+            $table->string('phone')->nullable();
+            $table->string('avatar')->nullable();
+            $table->enum('status',['ACTIVE','INACTIVE'])->default("ACTIVE");
             $table->rememberToken();
             $table->timestamps();
         });

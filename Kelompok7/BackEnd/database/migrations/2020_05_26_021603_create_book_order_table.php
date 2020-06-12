@@ -19,6 +19,7 @@ class CreateBookOrderTable extends Migration
             $table->integer('book_id');
             $table->integer('quantity');
             $table->float("price",20,2);
+            $table->string("book_type");
             $table->timestamps();
         });
     }

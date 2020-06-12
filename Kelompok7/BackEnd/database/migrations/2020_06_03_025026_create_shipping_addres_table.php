@@ -13,7 +13,7 @@ class CreateShippingAddresTable extends Migration
      */
     public function up()
     {
-        Schema::create('shipping_addres', function (Blueprint $table) {
+        Schema::create('shipping_address', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string("name");
             $table->bigInteger('user_id');
@@ -35,6 +35,6 @@ class CreateShippingAddresTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('shipping_addres');
+        Schema::dropIfExists('shipping_address');
     }
 }
