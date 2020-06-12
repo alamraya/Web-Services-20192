@@ -1,0 +1,38 @@
+.DetailBook {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.DetailBookBox {
+  width: 975px;
+}
+
+.DetailBook h3 {
+  font-weight: bold;
+}
+
+.BtnBorderLeft {
+  border-right: 1px solid gray;
+}
+
+.BtnBorderRight {
+  border-left: 1px solid gray;
+}
+
+.BtnAddToCart:hover {
+  border: none !important;
+  background: white !important;
+  color: #2d3034 !important;
+  font-weight: 600 !important;
+}
+
+.BtnBuyNow:hover {
+  border: none !important;
+  background: white !important;
+  color: #234090 !important;
+  font-weight: 600 !important;
+}
+
+.BtnDisabled {
+  cursor: not-allowed !important;
+}

@@ -1,0 +1,36 @@
+.Sidedrawer {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.Input {
+  background: white !important;
+  border: none !important;
+  border-bottom: 1px solid #abadac !important;
+  border-radius: 0 !important;
+  margin-left: 10px;
+}
+
+.Sidedrawer a {
+  border: 1px solid rgba(0, 0, 0, 0);
+  color: #abadac;
+  text-decoration: none !important;
+}
+
+.Sidedrawer a:hover {
+  color: #2d3034;
+}
+
+.Sidedrawer a:active,
+.Sidedrawer a.active {
+  color: #2d3034;
+}
+
+.List strong {
+  font-size: 16px;
+  color: #2d3034;
+}
+
+.ListChild {
+  color: #abadac;
+}
